@@ -261,7 +261,7 @@ UIImage * markerImgWithTextByPostion    (UIImage *image, NSString* text, MarkerP
             break;
         case BottomCenter:
             posX = (w-(size.width))/2;
-            posY = h-size.height - margin;
+            posY = h-size.height - margin*3;
             break;
         case BottomRight:
             posX = w-(size.width) - margin;
